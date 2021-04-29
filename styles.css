@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  user-select: none;
 }
 
 ::-webkit-scrollbar {
@@ -247,7 +248,9 @@ nav {
 }
 .social-links h4{
   transition: 0.5s;
-  color: crimson;
+  color: rgb(238, 57, 93);
+  letter-spacing: 2px;
+  
 }
 .social-links:hover h4{
   
@@ -264,8 +267,8 @@ nav {
 }
 
 input{
-    font-size: 2.5vh;
     
+    font-size: 2.5vh;
     padding: 1vh;
     color: white;
     background-color: black;
@@ -360,4 +363,16 @@ footer:hover{
 
 .thank-you-back:hover {
   box-shadow: 0 0 5px 5px crimson;
+}
+
+.project-page{
+  color: aliceblue;
+  background-color: black;
+  padding: 3vh 2.5vw 1vh 2.5vw;
+  font-size: 3.5vh;
+}
+.project-page h1{
+  background: linear-gradient(to right, crimson, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

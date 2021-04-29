@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanmay Kachroo - Home</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#">Tanmay Kachroo&trade;</a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#about-me">About Me</a></li>
+          <li><a class="nav-link" href="#">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="introduction">
+        <h1><span>A</span> <span>Developer</span></h1>
+        <h3><span>And</span></h3>
+        <h1><span>Designer</span></h1>
+        <div onclick="location.href='#about-me';" id="intro-down">v</div>
+      </div>
+      <div id="about-me">
+        <div class="about-text">
+          <h1>About Me</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            assumenda. Mollitia quam totam, odit error praesentium recusandae
+            molestias ad, eaque quod asperiores voluptatibus! Mollitia in
+            nesciunt praesentium eos quasi similique distinctio cupiditate
+            quibusdam nostrum ratione at illum quos eligendi eum asperiores
+            vitae, magnam modi perferendis est quidem officiis iusto! Explicabo
+            animi sit ipsam sequi soluta id vel at maiores beatae quae non nihil
+            tenetur commodi, quis ex adipisci laborum aliquam?
+          </p>
+        </div>
+
+        <div class="about-image">
+          <img src="./imgs/laptop.jpg" alt="" />
+        </div>
+      </div>
+      <div id="arrow-img">
+      <img src="./imgs/arrow.png" alt="">
+    </div>
+      <div class="skills-menu">
+        <h1>Skills</h1>
+        <div class="skills-flex">
+          <div class="skill-lang">
+            <h3>Languages</h3>
+            <ul class="skill-list">
+              <li>Html <img src="./imgs/html5.svg" alt="" width="20vw">
+                  CSS <img src="./imgs/css3.svg" alt="" width="35vw">
+                  Javascript <img src="./imgs/logo-javascript.svg" alt="" width="25vw">
+                </li>
+              <li>C++ <img src="./imgs/c.svg" alt="" width="30vw"> </li>
+              <li>Kotlin <img src="./imgs/kotlin-1.svg" width="25vw" alt=""> </li>
+              <li>Python <img src="./imgs/python-5.svg" width="30vw" alt=""> </li>
+            </ul>
+          </div>
+          <div class="skill-stack">
+              <h3>Stacks</h3>
+                <ul class="skill-list">
+                        <li>React <img src="./imgs/react.png" width="30vw" alt=""> </li>
+                        <li>Typescript <img src="./imgs/typescript.svg" width="27vw" alt=""> </li>
+                        <li>Node.js <img src="./imgs/nodejs.com.svg" width="30vw" alt=""> </li>
+                        <li>PostgreSQL </li>
+                </ul>              
+          </div>
+        </div>
+        <div onclick="location.href='projects.html';" class="see-projects">
+            <span>Projects > </span>
+        </div>
+      </div>
+      <div id="contact">
+       <h1>Contact Me</h1>
+       <form action="https://formsubmit.co/tanmaykachroo@gmail.com"
+       method="POST"
+       enctype="multipart/form-data"
+       name="email-form"
+       >
+       <input type="hidden" name="_next" value="">
+       <input type="hidden" name="_captcha" value="false">
+        Your Name:  <br><input class=".contact-form" type="text" name="Contact-Name" id=""> <br>
+        Your Email: <br> <input class=".contact-form" type="email" name="Contact-Email" id=""> <br>
+        Message: <br> <textarea class=".contact-form" name="Message" id="" rows="7" cols="45"> </textarea> <br>
+        <input type="submit" value="Submit">
+      </form>
+      </div>
+    </main>
+    <footer id="footer">
+  </footer>
+  </body>
+  
+</html>

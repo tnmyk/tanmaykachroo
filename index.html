@@ -15,7 +15,7 @@
   <body>
     <header>
       <div class="logo">
-        <a href="#">Tanmay Kachroo&trade;</a>
+        <a href="./index.html">Tanmay Kachroo&trade;</a>
       </div>
       <nav>
         <ul class="nav-links">
@@ -52,10 +52,10 @@
           <img src="./imgs/laptop.jpg" alt="" />
         </div>
       </div>
-      <div id="arrow-img">
+      <div onclick="location.href='#skill-menu-top';" id="arrow-img">
       <img src="./imgs/arrow.png" alt="">
     </div>
-      <div class="skills-menu">
+      <div id="skill-menu-top" class="skills-menu">
         <h1>Skills</h1>
         <div class="skills-flex">
           <div class="skill-lang">
@@ -83,7 +83,11 @@
         <div onclick="location.href='projects.html';" class="see-projects">
             <span>Projects > </span>
         </div>
+        <div onclick="location.href='#contact';" id="arrow-img" style="padding-top: 0; margin-top: 0;">
+      <img src="./imgs/arrow.png" alt="">
+    </div>
       </div>
+      
       <div id="contact">
        <h1>Contact Me</h1>
        <form action="https://formsubmit.co/tanmaykachroo@gmail.com"
@@ -94,16 +98,16 @@
        <input type="hidden" name="_next" value="https://tanmay-kachroo.vercel.app/thankyou.html">
        <input type="hidden" name="_captcha" value="false">
 
-        Your Name:  <br><input class=".contact-form" type="text" name="Contact-Name" id="" required> <br>
-        Your Email: <br> <input class=".contact-form" type="email" name="Contact-Email" id="" required> <br>
-        Message: <br> <textarea class=".contact-form" name="Message" id="" rows="7" cols="45" minlength="1"> </textarea>
-        
+        Your Name:  <br><input type="text" name="Contact-Name" id="" required> <br> 
+        Your Email: <br> <input type="email" name="Contact-Email" id="" required> <br> 
+        Message: <br> <textarea name="Message" id="" rows="4" cols="45" minlength="1"> </textarea>
         <br>
-        <input type="submit" value="Submit">
+        <input id="contact-submit"type="submit" value="Submit" >
       </form>
       </div>
     </main>
-    <footer id="footer">
+    <footer onclick="location.href='#';" id="footer">
+      <span> Back to Top ^</span>
   </footer>
   </body>
   

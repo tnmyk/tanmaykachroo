@@ -224,7 +224,7 @@ nav {
   flex: 1;  
 }
 .form-flex{
-  margin: 0 auto 0 auto;
+  margin: 4vh auto 0 auto;
   font-size: 3vh;
   display: flex;
   flex-direction: column;
@@ -241,10 +241,8 @@ nav {
 }
 
 .social-links{
-  margin-left: 7vw;
+  margin-left: 8.5vw;
   width: 20vw;
- 
-  
   cursor: pointer;
 }
 .social-links h4{

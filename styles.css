@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   user-select: none;
+  will-change: transform;
 }
 
 ::-webkit-scrollbar {
@@ -117,11 +118,13 @@ nav {
 
 .about-text {
   flex: 1;
-  font-size: 3.5vh;
+  font-size: 1.6vw;
 }
+
 .about-text p {
   margin-top: 4vh;
   padding-right: 9vw;
+  
 }
 .about-image {
   flex: 1;
@@ -231,7 +234,7 @@ nav {
   flex-direction: column;
   /* background-color: blueviolet; */
   height: 60vh;
-  
+  width: 60%;
 }
 .social-flex{
   flex: 1;
@@ -283,7 +286,7 @@ textarea{
     background-color: black;
     border: 1px solid white;
     border-radius: 5px;
-    
+    margin-bottom: 0;
 }
 
 #contact-submit{
@@ -297,6 +300,7 @@ textarea{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: 0.8s;
+  margin-top: 4vh;
 
 }
 #contact-submit:hover{

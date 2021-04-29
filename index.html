@@ -91,11 +91,14 @@
        enctype="multipart/form-data"
        name="email-form"
        >
-       <input type="hidden" name="_next" value="">
+       <input type="hidden" name="_next" value="https://tanmay-kachroo.vercel.app/thankyou.html">
        <input type="hidden" name="_captcha" value="false">
-        Your Name:  <br><input class=".contact-form" type="text" name="Contact-Name" id=""> <br>
-        Your Email: <br> <input class=".contact-form" type="email" name="Contact-Email" id=""> <br>
-        Message: <br> <textarea class=".contact-form" name="Message" id="" rows="7" cols="45"> </textarea> <br>
+
+        Your Name:  <br><input class=".contact-form" type="text" name="Contact-Name" id="" required> <br>
+        Your Email: <br> <input class=".contact-form" type="email" name="Contact-Email" id="" required> <br>
+        Message: <br> <textarea class=".contact-form" name="Message" id="" rows="7" cols="45" minlength="1"> </textarea>
+        
+        <br>
         <input type="submit" value="Submit">
       </form>
       </div>

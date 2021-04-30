@@ -413,8 +413,8 @@ footer:hover{
 }
 .project-list-item{
   /* background-color: blueviolet; */
-  width: 80%;
-  margin: 12vh 2.5vw 0vh 13vw;
+  width: 80vw;
+  margin: 12vh 0vw 0vh 13vw;
   cursor: pointer;
 }
 .project-list-item:hover h4{

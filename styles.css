@@ -473,6 +473,8 @@ footer:hover{
   }
   .introduction{
     font-size: 7vw;
+  min-height: 82vh;
+
   }
   .about-text{
     font-size: 90%;
@@ -503,6 +505,9 @@ footer:hover{
   .social-flex{
       margin-top: 4vh;
     }
+  .social-links{
+    font-size: 6vw;
+  }
   .form-flex{
     width: 70%;
   }

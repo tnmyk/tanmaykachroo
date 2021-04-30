@@ -552,5 +552,7 @@ footer:hover{
   .back-to-home{
     font-size: 6vw;
   }
-
+  #arrow-img img {
+  height: 7vh;
+}
 }

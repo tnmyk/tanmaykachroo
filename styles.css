@@ -19,20 +19,18 @@ header {
   margin: auto;
   align-items: center;
   background-color: black;
+  justify-content: space-between;
 }
 
 body {
   min-height: 300vh;
-   
+  margin: 0 auto; 
 }
 
 main {
   border-bottom: 1px solid gray;
 }
 
-.logo {
-  flex: 2;
-}
 .logo a {
   text-decoration: none;
   color: white;
@@ -40,21 +38,20 @@ main {
   background: linear-gradient(to right, yellow, violet);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-nav {
-  flex: 1;
+  
 }
 
 .nav-links {
   justify-content: space-around;
   flex: 1;
   display: flex;
-}
-.nav-links {
   list-style: none;
+
 }
+
 .nav-link {
+  margin:0 4vw;
+  margin-right: 3vw;
   text-decoration: none;
   color: white;
   transition: 0.6s;
@@ -93,7 +90,7 @@ nav {
   cursor: pointer;
   margin: auto;
   color: lightpink;
-  font-size: 6vh;
+  font-size: 3vw;
   overflow: hidden;
 }
 #intro-down:hover {

@@ -492,7 +492,7 @@ footer:hover{
     padding-top: 1vh;
   }
   .skills-menu h1{
-    font-size: 4vh;
+    font-size: 5vh;
   }
   .contact-form-flex h1{
     font-size: 5vh;
@@ -519,7 +519,12 @@ footer:hover{
   }
   .see-projects{
     margin-top: 5vh;
+    padding: 2vw;
   }
-  
+
+  footer{
+    font-size: 5vw;
+    min-height:7vh ;
+  }
 
 }

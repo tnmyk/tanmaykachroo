@@ -199,13 +199,15 @@ nav {
   text-align: center;
   padding: 3vh 3vh 3vh 3vh;
   cursor: pointer;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.781);
   transition: ease-out 0.3s;
+    border-radius: 8px;
+
 }
 .see-projects:hover {
   background: rgb(49, 49, 49);
   transform: scale(1.02);
-  box-shadow: 0 0 5px 5px rgba(245, 245, 245, 0.87);
+  box-shadow: 0 0 1px 1px rgba(245, 245, 245, 0.87);
 }
 .see-projects span {
   background: linear-gradient(to right, yellow, lightblue);
@@ -214,7 +216,7 @@ nav {
 }
 
 #contact {
-  min-height: 91vh;
+  min-height: 90.5vh;
   background-color:black;
   padding: 3vh 2.5vw 1vh 2.5vw;
   font-size: 3.5vh;

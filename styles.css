@@ -20,6 +20,7 @@ header {
   align-items: center;
   background-color: black;
   justify-content: space-between;
+  font-size: 2.7vh;
 }
 
 body {
@@ -98,7 +99,7 @@ main {
 }
 
 #about-me {
-  height: 93vh;
+  min-height: 93vh;
   background-color: black;
   width: 100%;
   margin: 0 auto 0 auto;
@@ -186,7 +187,7 @@ main {
 }
 .skills-flex li {
   padding-bottom: 3vh;
-  padding-left: 8vh;
+  margin-left: 8vh;
 }
 
 .see-projects {
@@ -244,7 +245,8 @@ main {
 
 .social-links{
   margin-left: 8.5vw;
-  width: 20vw;
+  /* background: chartreuse; */
+  width: 50%;
   cursor: pointer;
 }
 .social-links h4{
@@ -257,7 +259,7 @@ main {
 }
 .social-links:hover h4{
   
-  transform: translateX(40%);
+  transform: translateX(50%);
   
 }
 
@@ -310,7 +312,7 @@ footer {
   color: white;
   background-color: black;
   
-  height: 9vh;
+  min-height: 9vh;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -425,4 +427,99 @@ footer:hover{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: 0.7s;
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width:1250px){
+  .about-text{
+    font-size: 130%;
+  }
+}
+
+@media all and (max-width:890px){
+    #contact{
+      flex-direction: column;
+    }
+    .social-flex{
+      margin: 10vh auto;
+    }
+    .social-links{
+      margin-left: 0vw;
+      width: 100%;
+    }
+    .social-links:hover h4{
+      transform: translateX(20%);
+    }
+    #about-me{
+      flex-direction: column;
+    }
+    .about-text{
+      flex:2;
+      font-size: 120%;
+    }
+    
+}
+
+@media all and (max-width:530px){
+  header{
+    font-size: 3.2vw;
+  }
+  .introduction{
+    font-size: 7vw;
+  }
+  .about-text{
+    font-size: 90%;
+    flex:initial;
+  }
+  .about-image{
+    flex:initial;
+
+  }
+  .about-image img{
+    width: 80vw;
+  }
+  /* .about-image{
+    display: none;
+  } */
+  .skills-menu{
+    padding-top: 1vh;
+  }
+  .skills-menu h1{
+    font-size: 4vh;
+  }
+  .contact-form-flex h1{
+    font-size: 5vh;
+  }
+  #contact{
+    padding-top: 1vh;
+  }
+  .social-flex{
+      margin-top: 4vh;
+    }
+  .form-flex{
+    width: 70%;
+  }
+  .skills-flex{
+    flex-direction: column;
+    font-size: 5vw;
+  }
+  .skills-flex li{
+    margin-left: 5vw;
+  }
+
+  .skill-stack{
+    margin-top: 5vh;
+  }
+  .see-projects{
+    margin-top: 5vh;
+  }
+  
+
 }

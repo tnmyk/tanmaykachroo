@@ -250,7 +250,9 @@ nav {
 }
 .social-links h4{
   transition: 0.5s;
-  color: rgb(238, 57, 93);
+  background: linear-gradient(to right, rgb(238, 57, 93), rgb(214, 160, 171));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   letter-spacing: 2px;
   
 }
@@ -371,11 +373,57 @@ footer:hover{
 .project-page{
   color: aliceblue;
   background-color: black;
-  padding: 3vh 2.5vw 1vh 2.5vw;
+  /* background-image: url(./imgs/introduction-background.jpg); */
   font-size: 3.5vh;
+  min-height: 100vh;
 }
+.back-to-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  background-color: black;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+  transition: 0.3s;
+}
+.back-to-home:hover{
+  background-color: rgb(36, 34, 34);
+}
+.back-to-home span{
+  /* background: linear-gradient(to right, crimson, white); */
+  background: linear-gradient(to right, yellow, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .project-page h1{
+  padding: 3vh 2.5vw 1vh 2.5vw;
   background: linear-gradient(to right, crimson, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.projects-flex{
+  display: flex;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+  min-height: 77.5vh;
+  /* justify-content: center; */
+}
+.project-list-item{
+  /* background-color: blueviolet; */
+  width: 60vw;
+  margin: 12vh 2.5vw 0vh 13vw;
+  cursor: pointer;
+}
+.project-list-item:hover h4{
+  transform:translateX(30%)
+}
+
+.project-list-item h4{
+  font-size: 5vw;
+  background: linear-gradient(to right, rgb(238, 57, 93), rgb(214, 160, 171));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.7s;
 }

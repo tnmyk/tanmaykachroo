@@ -410,12 +410,12 @@ footer:hover{
   display: flex;
   flex-direction: column;
   /* background-color: blueviolet; */
-  min-height: 76.5vh;
+  min-height: 60.5vh;
   /* justify-content: center; */
 }
 .project-list-item{
   /* background-color: blueviolet; */
-  width: 80vw;
+  width: 60vw;
   margin: 12vh 0vw 0vh 13vw;
   cursor: pointer;
 }
@@ -545,6 +545,7 @@ footer:hover{
   .project-list-item{
     margin-left: 9VW;
     margin-top: 5vh;
+    width: 80vw;
   }
   
   .project-list-item:hover h4{

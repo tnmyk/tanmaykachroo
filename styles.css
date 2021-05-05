@@ -430,8 +430,45 @@ footer:hover{
   -webkit-text-fill-color: transparent;
   transition: 0.7s;
 }
-
-
+.web-page{
+  color: aliceblue;
+  background-color: black;
+  font-size: 3.5vh;
+  height: 100vh;
+}
+.web-page h1{
+  padding: 6vh 2.5vw 1vh 2.5vw;
+  background: linear-gradient(to right, crimson, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.web-flex{
+  display: flex;
+  flex-direction: column;
+  min-height: 60.5vh;
+}
+.web-list-item p{
+    transition: 0.7s;
+  font-size:1.1vw;
+}
+.web-list-item{
+    width: 68vw;
+    margin: 12vh 0vw 0vh 7vw;
+    cursor: pointer;
+}
+.web-list-item h4{
+  font-size: 3vw;
+   background: linear-gradient(to right, crimson, white,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.7s;
+}
+.web-list-item:hover h4{
+  transform:translateX(18%);
+}
+.web-list-item:hover p{
+  transform:translateX(28%);
+}
 
 
 
@@ -556,5 +593,22 @@ footer:hover{
   }
   #arrow-img img {
   height: 7vh;
-}
+  }
+  .web-page h1{
+    font-size: 10vw;
+    margin-left: 2vw;
+  }
+  .web-list-item h4{
+    font-size:9vw;
+  }
+  .web-list-item p{
+    font-size:3vw;
+    margin-left: 2vw;
+  }
+  .web-list-item:hover h4{
+    transform: translateX(22%);
+  }
+  .web-list-item:hover p{
+    transform: translateX(32%);
+  }
 }
